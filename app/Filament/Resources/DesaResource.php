@@ -18,6 +18,8 @@ class DesaResource extends Resource
     protected static ?string $model = Desa::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $modelLabel = 'Desa';
+    protected static ?string $pluralModelLabel = 'Desa';
 
     public static function form(Form $form): Form
     {
