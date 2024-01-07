@@ -14,6 +14,5 @@ class Desa extends Model
 
     ];
 
-    protected static ?string $modelLabel = 'Desa';
-    protected static ?string $pluralModelLabel = 'Desa';
+
 }
